@@ -86,7 +86,10 @@ x * y = k     ==>     (x + a) * (y - b) = k
 ## 和 cex 比较
 
 - cex: 深度不够，容易砸盘。
-- dex: 只适用于想*市价交易*的用户，不适用于*限价交易*的用户。
+- dex:
+  - 只适用于想*市价交易*的用户，不适用于*限价交易*的用户。
+  - 交易费比较高。
+  - 做市商需要承受 *impermanent loss*。
 
 
 ---
@@ -96,3 +99,4 @@ x * y = k     ==>     (x + a) * (y - b) = k
 - [uniswap doc](https://uniswap.org/docs/v2/)
 - [uniswap paper](https://uniswap.org/whitepaper.pdf)
 - [cex and dex](https://www.lichang.io/articleDetail/563924)
+- [impermanent loss](https://uniswap.org/docs/v2/advanced-topics/understanding-returns/)
